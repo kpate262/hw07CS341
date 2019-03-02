@@ -63,6 +63,7 @@ let main argv =
     let countU = countEachVowel listInput 'u'
     let rotated = rotateVowel listInput
     let toStr = implode rotated
+    
     printfn "length: %A" listInputLen
     printfn "vowels: %A"  toVowels
     printfn "a: %A" countA
@@ -70,6 +71,6 @@ let main argv =
     printfn "i: %A" countI
     printfn "o: %A" countO
     printfn "u: %A" countU
-    printfn "rotated: %s" toStr
+    printfn "rotated: %A" toStr
     
     0// return an integer exit code
